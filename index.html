@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jade For Women - Fashion Boutique</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- ========== HEADER MOBILE ========== -->
+    <header class="header header-mobile">
+        <button class="header-btn menu-btn" aria-label="Menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="3" y1="6" x2="21" y2="6"/>
+                <line x1="3" y1="12" x2="21" y2="12"/>
+                <line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+        </button>
+        <div class="header-logo">
+            <img src="img/logo.png" alt="Jade For Women - Fashion Boutique">
+        </div>
+        <div class="header-actions">
+            <button class="header-btn search-btn" aria-label="Pesquisar">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"/>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                </svg>
+            </button>
+            <button class="header-btn cart-btn" aria-label="Carrinho">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
+                    <line x1="3" y1="6" x2="21" y2="6"/>
+                    <path d="M16 10a4 4 0 01-8 0"/>
+                </svg>
+                <span class="cart-badge">0</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ========== HEADER DESKTOP ========== -->
+    <header class="header header-desktop">
+        <div class="header-desktop-inner">
+            <div class="header-desktop-logo">
+                <img src="img/logo.png" alt="Jade For Women - Fashion Boutique">
+            </div>
+            <nav class="header-desktop-nav">
+                <a href="#inicio">Inicio</a>
+                <a href="#categorias">Categorias</a>
+                <a href="#produtos">Novidades</a>
+                <a href="#favoritos-section">Favoritos</a>
+                <a href="#atendimento">Atendimento</a>
+            </nav>
+            <div class="header-desktop-actions">
+                <button class="header-btn search-btn" aria-label="Pesquisar">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"/>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                    </svg>
+                </button>
+                <button class="header-btn cart-btn" aria-label="Carrinho">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
+                        <line x1="3" y1="6" x2="21" y2="6"/>
+                        <path d="M16 10a4 4 0 01-8 0"/>
+                    </svg>
+                    <span class="cart-badge">0</span>
+                </button>
+                <a href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20vim%20pelo%20site%20Jade%20For%20Women%20e%20quero%20saber%20mais%20sobre%20as%20pe%C3%A7as" class="header-whatsapp-btn" target="_blank" rel="noopener">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    WhatsApp
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========== MENU LATERAL (MOBILE) ========== -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+    <nav class="side-menu" id="sideMenu">
+        <div class="side-menu-header">
+            <img src="img/logo.png" alt="Jade For Women" class="side-menu-logo">
+            <button class="close-menu-btn" id="closeMenuBtn" aria-label="Fechar menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+        </div>
+        <ul class="side-menu-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#categorias">Categorias</a></li>
+            <li><a href="#produtos">Produtos em Destaque</a></li>
+            <li><a href="#atendimento">Atendimento</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+        </ul>
+        <div class="menu-instagram">
+            <span class="menu-instagram-label">Nos siga no Instagram</span>
+            <strong>@jadeforwoman</strong>
+            <p>Acompanhe novidades, looks e pecas disponiveis.</p>
+            <a href="https://www.instagram.com/jadeforwoman" target="_blank" rel="noopener">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                Ver Instagram
+            </a>
+        </div>
+        <div class="side-menu-footer">
+            <a href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20vim%20pelo%20site%20Jade%20For%20Women%20e%20quero%20saber%20mais%20sobre%20as%20pe%C3%A7as" class="side-menu-whatsapp" target="_blank" rel="noopener">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                Falar no WhatsApp
+            </a>
+        </div>
+    </nav>
+
+    <!-- ========== PESQUISA ========== -->
+    <div class="search-overlay" id="searchOverlay">
+        <div class="search-container">
+            <input type="text" class="search-input" id="searchInput" placeholder="O que voce procura?">
+            <button class="search-close-btn" id="searchCloseBtn" aria-label="Fechar pesquisa">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- ========== CONTEUDO PRINCIPAL ========== -->
+    <main class="main-content">
+
+        <!-- BANNER PRINCIPAL -->
+        <section class="hero-banner" id="inicio">
+            <!-- MOBILE: imagem com texto por cima -->
+            <div class="hero-mobile">
+                <img src="img/foto-do-anuncio.png" alt="Nova Colecao Jade For Women" class="hero-image">
+                <div class="hero-overlay">
+                    <div class="hero-text">
+                        <span class="hero-subtitle">NOVA COLECAO</span>
+                        <h1 class="hero-title">Elegancia<br>sem esforco</h1>
+                        <p class="hero-description">Alfaiataria moderna<br>para o dia a dia.</p>
+                        <a href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20vim%20pelo%20site%20Jade%20For%20Women%20e%20quero%20saber%20mais%20sobre%20as%20pe%C3%A7as" class="hero-cta" target="_blank" rel="noopener">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                            CHAMAR NO WHATSAPP
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+            <!-- DESKTOP: texto esquerda + imagem direita -->
+            <div class="hero-desktop">
+                <div class="hero-desktop-inner">
+                    <div class="hero-desktop-text">
+                        <span class="hero-subtitle">NOVA COLECAO</span>
+                        <h1 class="hero-title">Elegancia<br>sem esforco</h1>
+                        <p class="hero-description">Alfaiataria moderna para o dia a dia.</p>
+                        <a href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20vim%20pelo%20site%20Jade%20For%20Women%20e%20quero%20saber%20mais%20sobre%20as%20pe%C3%A7as" class="hero-cta" target="_blank" rel="noopener">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                            CHAMAR NO WHATSAPP
+                        </a>
+                    </div>
+                    <div class="hero-desktop-image">
+                        <img src="img/foto-do-anuncio.png" alt="Nova Colecao Jade For Women">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CATEGORIAS -->
+        <section class="categories-section" id="categorias">
+            <div class="container">
+                <div class="categories-card">
+                    <a href="#" class="category-item">
+                        <div class="category-circle">
+                            <img src="img/blazers.png" alt="Blazers">
+                        </div>
+                        <span class="category-name">BLAZERS</span>
+                    </a>
+                    <a href="#" class="category-item">
+                        <div class="category-circle">
+                            <img src="img/conjuntos.png" alt="Conjuntos">
+                        </div>
+                        <span class="category-name">CONJUNTOS</span>
+                    </a>
+                    <a href="#" class="category-item">
+                        <div class="category-circle">
+                            <img src="img/calças.png" alt="Calcas">
+                        </div>
+                        <span class="category-name">CALÇAS</span>
+                    </a>
+                    <a href="#" class="category-item">
+                        <div class="category-circle">
+                            <img src="img/vestidos.png" alt="Vestidos">
+                        </div>
+                        <span class="category-name">VESTIDOS</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUTOS EM DESTAQUE -->
+        <section class="products-section" id="produtos">
+            <div class="container">
+                <div class="products-header">
+                    <h2 class="products-title">PRODUTOS EM DESTAQUE</h2>
+                    <a href="#" class="products-see-all">VER TODOS <span>&gt;</span></a>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="img/foto-produto-destaque.png" alt="Blazer Alfaiatado Jade" class="product-image">
+                            <button class="favorite-btn" aria-label="Favoritar">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Blazer Alfaiatado Jade</h3>
+                            <p class="product-price">R$ 439,90</p>
+                            <button class="product-btn" data-product="Blazer Alfaiatado Jade" data-price="R$ 439,90" data-img="img/foto-produto-destaque.png" data-desc="Blazer alfaiatado com corte moderno e acabamento premium. Perfeito para looks elegantes no dia a dia.">VER PRODUTO</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="img/colete-afaiatado-linho.png" alt="Colete Alfaiatado Linho" class="product-image">
+                            <button class="favorite-btn" aria-label="Favoritar">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Colete Alfaiatado Linho</h3>
+                            <p class="product-price">R$ 319,90</p>
+                            <button class="product-btn" data-product="Colete Alfaiatado Linho" data-price="R$ 319,90" data-img="img/colete-afaiatado-linho.png" data-desc="Colete alfaiatado em linho com caimento perfeito. Versatil e sofisticado para diversas ocasioes.">VER PRODUTO</button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image-wrapper">
+                            <img src="img/calça-pantalona-jade.png" alt="Calca Pantalona Jade" class="product-image">
+                            <button class="favorite-btn" aria-label="Favoritar">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-name">Calca Pantalona Jade</h3>
+                            <p class="product-price">R$ 299,90</p>
+                            <button class="product-btn" data-product="Calca Pantalona Jade" data-price="R$ 299,90" data-img="img/calça-pantalona-jade.png" data-desc="Calca pantalona com cintura alta e tecido fluido. Conforto e elegancia em uma so peca.">VER PRODUTO</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAIXA ATENDIMENTO WHATSAPP -->
+        <section class="whatsapp-banner" id="atendimento">
+            <div class="container">
+                <div class="whatsapp-banner-content">
+                    <div class="whatsapp-banner-text">
+                        <div class="whatsapp-banner-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        </div>
+                        <div>
+                            <h3 class="whatsapp-banner-title">ATENDIMENTO VIA WHATSAPP</h3>
+                            <p class="whatsapp-banner-subtitle">Atendimento personalizado e pedidos rapidos.</p>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20vim%20pelo%20site%20Jade%20For%20Women%20e%20quero%20saber%20mais%20sobre%20as%20pe%C3%A7as" class="whatsapp-banner-btn" target="_blank" rel="noopener">FALAR NO WHATSAPP</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- DEPOIMENTO + BENEFICIOS -->
+        <section class="testimonial-section" id="depoimentos">
+            <div class="container">
+                <div class="testimonial-content">
+                    <div class="testimonial-card">
+                        <div class="testimonial-avatar">
+                            <div class="avatar-placeholder">J</div>
+                        </div>
+                        <div class="testimonial-text">
+                            <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                            <p class="testimonial-quote">Peças impecaveis, caimento perfeito e atendimento incrivel. Minha boutique favorita!</p>
+                            <span class="testimonial-author">&mdash; Juliana M.</span>
+                        </div>
+                    </div>
+                    <div class="benefits-row">
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 11.08V12a10 10 0 11-5.93-9.14"/>
+                                    <polyline points="22 4 12 14.01 9 11.01"/>
+                                </svg>
+                            </div>
+                            <span class="benefit-label">QUALIDADE<br>PREMIUM</span>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M12 2C8 2 6 5 6 8c0 2 1 3 1 5h10c0-2 1-3 1-5 0-3-2-6-6-6z"/>
+                                    <line x1="9" y1="13" x2="9" y2="21"/>
+                                    <line x1="15" y1="13" x2="15" y2="21"/>
+                                    <path d="M9 18h6"/>
+                                    <path d="M8 21h8"/>
+                                </svg>
+                            </div>
+                            <span class="benefit-label">CAIMENTO<br>PERFEITO</span>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+                                </svg>
+                            </div>
+                            <span class="benefit-label">ATENDIMENTO<br>EXCLUSIVO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ========== FOOTER (DESKTOP) ========== -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <img src="img/logo.png" alt="Jade For Women" class="footer-logo">
+                <p class="footer-tagline">Jade For Women &mdash; Fashion Boutique<br>Elegancia sem esforco para o dia a dia.</p>
+            </div>
+            <div class="footer-links">
+                <h4 class="footer-heading">Navegacao</h4>
+                <a href="#inicio">Inicio</a>
+                <a href="#categorias">Categorias</a>
+                <a href="#produtos">Novidades</a>
+                <a href="#atendimento">Atendimento</a>
+            </div>
+            <div class="footer-contact">
+                <h4 class="footer-heading">Contato</h4>
+                <a href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20vim%20pelo%20site%20Jade%20For%20Women%20e%20quero%20saber%20mais%20sobre%20as%20pe%C3%A7as" class="footer-whatsapp-link" target="_blank" rel="noopener">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                    Falar no WhatsApp
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Jade For Women. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- ========== MODAL PRODUTO ========== -->
+    <div class="product-modal-overlay" id="productModal">
+        <div class="product-modal">
+            <button class="modal-close-btn" id="modalCloseBtn" aria-label="Fechar">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"/>
+                    <line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+            <div class="modal-body">
+                <img src="" alt="" class="modal-product-image" id="modalImage">
+                <div class="modal-product-info">
+                    <h3 class="modal-product-name" id="modalName"></h3>
+                    <p class="modal-product-price" id="modalPrice"></p>
+                    <p class="modal-product-desc" id="modalDesc"></p>
+                    <a href="#" class="modal-whatsapp-btn" id="modalWhatsappBtn" target="_blank" rel="noopener">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        COMPRAR VIA WHATSAPP
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== BOTAO FLUTUANTE WHATSAPP ========== -->
+    <a href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20vim%20pelo%20site%20Jade%20For%20Women%20e%20quero%20saber%20mais%20sobre%20as%20pe%C3%A7as" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+
+    <!-- ========== MENU INFERIOR MOBILE ========== -->
+    <nav class="bottom-nav">
+        <a href="#inicio" class="bottom-nav-item active">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+                <polyline points="9 22 9 12 15 12 15 22"/>
+            </svg>
+            <span>INICIO</span>
+        </a>
+        <a href="#categorias" class="bottom-nav-item">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="7" height="7"/>
+                <rect x="14" y="3" width="7" height="7"/>
+                <rect x="3" y="14" width="7" height="7"/>
+                <rect x="14" y="14" width="7" height="7"/>
+            </svg>
+            <span>CATEGORIAS</span>
+        </a>
+        <a href="#produtos" class="bottom-nav-item">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+            <span>NOVIDADES</span>
+        </a>
+        <a href="#" class="bottom-nav-item" id="favoritesNavBtn">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+            </svg>
+            <span>FAVORITOS</span>
+        </a>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+</html>
